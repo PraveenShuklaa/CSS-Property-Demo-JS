@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Property</title>
+    <link rel="stylesheet" href="css-files/css-property.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head">
+            <h2><span onclick="document.getElementById('css-name').style.display='block'";>CSS Properties</span></h2>
+        </div>
+        <div id="css-name">
+            <h3><span onclick="document.getElementById('text-align').style.display='block'";>Text Align</span></h3>
+            <ul id="text-align">
+                <li onclick="document.getElementById('tar').style.textAlign='left'">Left</li>
+                <li onclick="document.getElementById('tar').style.textAlign='center'">Center</li>
+                <li onclick="document.getElementById('tar').style.textAlign='right'">Right</li>
+                <li onclick="document.getElementById('data').style.textAlign='justify'">Justify</li>
+            </ul>
+            <h3><span onclick="document.getElementById('color').style.display='block'";>Color</span></h3>
+            <ul id="color">
+                <li onclick="document.getElementById('tar').style.color='red'">Red</li>
+                <li onclick="document.getElementById('tar').style.color='blue'">Blue</li>
+                <li onclick="document.getElementById('tar').style.color='green'">Green</li>
+                <li onclick="document.getElementById('tar').style.color='orange'">Orange</li>
+            </ul>
+            <h3><span onclick="document.getElementById('decor').style.display='block'";>Text Decoration</span></h3>
+            <ul id="decor">
+                <li onclick="document.getElementById('tar').style.textDecoration='underline'">Underline</li>
+                <li onclick="document.getElementById('tar').style.textDecoration='overline'">Overline</li>
+                <li onclick="document.getElementById('tar').style.textDecoration='none'">None</li>
+                <li onclick="document.getElementById('tar').style.textDecoration='line-through'">Line-through</li>
+            </ul>
+            <h3><span onclick="document.getElementById('transform').style.display='block'";>Text Tranform</span></h3>
+            <ul id="transform">
+                <li onclick="document.getElementById('tar').style.textTransform='lowercase'">Lowercase</li>
+                <li onclick="document.getElementById('tar').style.textTransform='capitalize'">Capitalize</li>
+                <li onclick="document.getElementById('tar').style.textTransform='uppercase'">Uppercase</li>
+                <li onclick="document.getElementById('tar').style.textTransform='none'">None</li>
+            </ul>
+            <h3><span onclick="document.getElementById('lspacing').style.display='block'";>Letter Spacing</span></h3>
+            <ul id="lspacing">
+                <li onclick="document.getElementById('data').style.letterSpacing='2px'">2px</li>
+                <li onclick="document.getElementById('data').style.letterSpacing='4px'">4px</li>
+                <li onclick="document.getElementById('data').style.letterSpacing='-2px'">-2px</li>
+                <li onclick="document.getElementById('data').style.letterSpacing='normal'">Normal</li>
+            </ul>
+            <h3><span onclick="document.getElementById('wspacing').style.display='block'";>Word Spacing</span></h3>
+            <ul id="wspacing">
+                <li onclick="document.getElementById('data').style.wordSpacing='4px'">4px</li>
+                <li onclick="document.getElementById('data').style.wordSpacing='8px'">8px</li>
+                <li onclick="document.getElementById('data').style.wordSpacing='-5px'">-5px</li>
+                <li onclick="document.getElementById('data').style.wordSpacing='normal'">Normal</li>
+            </ul>
+            <h3><span onclick="document.getElementById('lheight').style.display='block'";>Line Height</span></h3>
+            <ul id="lheight">
+                <li onclick="document.getElementById('data').style.lineHeight='25px'">25px</li>
+                <li onclick="document.getElementById('data').style.lineHeight='20px'">20px</li>
+                <li onclick="document.getElementById('data').style.lineHeight='15px'">15px</li>
+                <li onclick="document.getElementById('data').style.lineHeight='normal'">Normal</li>
+            </ul>
+            <h3><span onclick="document.getElementById('indent').style.display='block'";>Text Indentation</span></h3>
+            <ul id="indent">
+                <li onclick="document.getElementById('data').style.textIndent='15px'">15px</li>
+                <li onclick="document.getElementById('data').style.textIndent='30px'">30px</li>
+                <li onclick="document.getElementById('data').style.textIndent='-15px'">-15px</li>
+                <li onclick="document.getElementById('data').style.textIndent='unset'">Unset</li>
+            </ul>
+            <h3><span onclick="document.getElementById('direct').style.display='block'";>Text Direction</span></h3>
+            <ul id="direct">
+                <li onclick="document.getElementById('tar').style.direction='rtl'">rtl</li>
+                <li onclick="document.getElementById('tar').style.direction='ltr'">ltr</li>
+            </ul>
+            <h3><span onclick="document.getElementById('tshadow').style.display='block'";>Text Shadow</span></h3>
+            <ul id="tshadow">
+                <li onclick="document.getElementById('tar').style.textShadow='5px 0px 2px blue'">5px 0px</li>
+                <li onclick="document.getElementById('tar').style.textShadow='0px 5px 2px blue'">0px 5px</li>
+                <li onclick="document.getElementById('tar').style.textShadow='5px 5px 2px blue'">5px 5px</li>
+                <li onclick="document.getElementById('tar').style.textShadow='unset'">Unset</li>
+            </ul>
+            <h3><span onclick="document.getElementById('fsize').style.display='block'";>Font Size</span></h3>
+            <ul id="fsize">
+                <li onclick="document.getElementById('data').style.fontSize='large'">Large</li>
+                <li onclick="document.getElementById('data').style.fontSize='small'">Small</li>
+                <li onclick="document.getElementById('data').style.fontSize='larger'">Larger</li>
+                <li onclick="document.getElementById('data').style.fontSize='unset'">Unset</li>
+            </ul>
+            <h3><span onclick="document.getElementById('ffamily').style.display='block'";>Font Family</span></h3>
+            <ul id="ffamily">
+                <li onclick="document.getElementById('data').style.fontFamily='cursive'">Cursive</li>
+                <li onclick="document.getElementById('data').style.fontFamily='fantasy'">Fantasy</li>
+                <li onclick="document.getElementById('data').style.fontFamily='monospace'">Monospace</li>
+                <li onclick="document.getElementById('data').style.fontFamily='sans-serif'">Sans-Serif</li>
+            </ul>
+            <h3><span onclick="document.getElementById('fweight').style.display='block'";>Font Weight</span></h3>
+            <ul id="fweight">
+                <li onclick="document.getElementById('tar').style.fontWeight='lighter'">Lighter</li>
+                <li onclick="document.getElementById('data').style.fontWeight='bold'">Bold</li>
+                <li onclick="document.getElementById('tar').style.fontWeight='bold'">Unset Heading</li>
+                <li onclick="document.getElementById('data').style.fontWeight='unset'">Unset Para</li>
+            </ul>
+            <h3><span onclick="document.getElementById('fstyle').style.display='block'";>Font Style</span></h3>
+            <ul id="fstyle">
+                <li onclick="document.getElementById('tar').style.fontStyle='italic'">Italc</li>
+                <li onclick="document.getElementById('tar').style.fontStyle='normal'">Normal</li>
+            </ul>
+            <h3><span onclick="document.getElementById('fvariant').style.display='block'";>Font Variant</span></h3>
+            <ul id="fvariant">
+                <li onclick="document.getElementById('tar').style.fontVariant='small-caps'">Small-Caps</li>
+                <li onclick="document.getElementById('tar').style.fontVariant='normal'">Normal</li>
+            </ul>
+            <h3><span onclick="document.getElementById('float').style.display='block'";>Float</span></h3>
+            <ul id="float">
+                <li onclick="document.getElementById('box').style.float='right'">Right</li>
+                <li onclick="document.getElementById('box').style.float='left'">Left</li>
+            </ul>
+            <h3><span onclick="document.getElementById('border').style.display='block'";>Border</span></h3>
+            <ul id="border">
+                <li onclick="document.getElementById('data').style.border='5px solid'">5px solid</li>
+                <li onclick="document.getElementById('data').style.border='unset'">Unset</li>
+            </ul>
+            <h3><span onclick="document.getElementById('model').style.display='block'";>Box Model</span></h3>
+            <ul id="model">
+                <li onclick="document.getElementById('div').style.margin='1%'">Margin</li>
+                <li onclick="document.getElementById('div').style.margin='unset'">Unset Margin</li>
+                <li onclick="document.getElementById('div').style.padding='1%'">Padding</li>
+                <li onclick="document.getElementById('div').style.padding='unset'">Unset Padding</li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="main" id="div">
+        <h3 id="tar">!Welcome to Ducat India for coaching!</h3>
+        <p id="data">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus nisi debitis necessitatibus 
+            quod voluptas aliquam consequuntur animi pariatur sunt, impedit quam! Consequuntur sint rerum provident 
+            quod iusto accusantium enim?Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eveniet 
+            eligendi repellendus quis, accusantium illo laboriosam aspernatur deserunt atque quisquam ipsa repudiandae 
+            tempora ipsam asperiores maiores. Incidunt fuga corrupti culpa! Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Sint assumenda accusamus delectus aliquam veniam consequuntur distinctio itaque, magnam 
+            dolorem atque iusto ipsam architecto provident dolore nihil dolor facere accusantium sapiente!</p>
+            <div id="box"></div>
+    </div>
+</body>
+</html>
